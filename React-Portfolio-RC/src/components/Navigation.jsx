@@ -9,6 +9,12 @@ const styles = {
         color: '#a3e9ee',
         padding: '0 20px',
     },
+    flexRow: {
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+      }
 
 }
 
@@ -16,10 +22,12 @@ function Navigation() {
     return (
         <div>
             <ul>
-                <li>About Me</li>
+                <div style={styles.flexRow}>
+                    <li>About Me</li>
                 <li>Portfolio</li>
                 <li>Contact</li>
                 <li>Resume</li>
+                    </div>
             </ul>
         </div>
     );

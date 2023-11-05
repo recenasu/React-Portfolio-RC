@@ -2,9 +2,9 @@
 const styles = {
     heading: {
         background: '##e9eea3',
-        minHeight: 50,
-        lineHeight: 3.5,
-        fontSize: '1.2rem',
+        minHeight: 20,
+        lineHeight: 1.5,
+        fontSize: '1rem',
         color: '#a3e9ee',
         padding: '0 20px',
       },
@@ -13,9 +13,9 @@ const styles = {
 
 function Header() {
     return (
-        <header>
-            <h1>Rick's Portfolio</h1>
-        </header>
+        <div>
+            <h1 style={styles.heading}>Rick's Portfolio</h1>
+        </div>
     );
 }
 

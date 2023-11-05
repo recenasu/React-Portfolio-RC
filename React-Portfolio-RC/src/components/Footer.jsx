@@ -10,6 +10,12 @@ const styles = {
         color: '#a3e9ee',
         padding: '0 20px',
     },
+    flexRow: {
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+    }
 
 }
 
@@ -17,9 +23,11 @@ function Footer() {
     return (
         <div>
             <ul>
-                <li>My GitHub profile link</li>
-                <li>My LinkedIn profile link</li>
-                <li>Another link</li>
+                <div style={styles.flexRow}>
+                    <li>My GitHub profile link</li>
+                    <li>My LinkedIn profile link</li>
+                    <li>Another link</li>
+                </div>
             </ul>
         </div>
     );
