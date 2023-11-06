@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// Import required React libraries
+import { Outlet } from 'react-router-dom';
+
+// Import styles and components
 import './App.css'
 import Header from './components/Header';
 import Navigation from './components/Navigation';
-import Project from './components/Project';
 import Footer from './components/Footer';
 
-
+// Define div styles
 const styles = {
   appSize: {
     display: 'flex',
@@ -23,7 +23,8 @@ function App() {
     <div style={styles.appSize}>
       <Header />
       <Navigation />
-      <Project />
+      {/* Outlet component for conditional swapping of displayed page */}
+      <Outlet />
       <Footer />
     </div>
   );

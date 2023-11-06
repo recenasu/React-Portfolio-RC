@@ -77,8 +77,8 @@ function Project() {
                     <div>GitHub repo link</div>
                 </div>
                 <div style={styles.projectCardTop}>
-                    <div>Project 2 Title</div>
-                    <div style={styles.projectCardThumbnail}>image</div>
+                    <div>MVC Tech Blog</div>
+                    <img style={styles.projectCardThumbnail} src='/src/assets/mvc-tech-blog.gif' alt='GIF' />
                     <div>Deployed app link</div>
                     <div>GitHub repo link</div>
                 </div>
