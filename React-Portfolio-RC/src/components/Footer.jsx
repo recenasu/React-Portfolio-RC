@@ -2,35 +2,33 @@
 
 
 const styles = {
-    heading: {
-        background: '##e9eea3',
-        minHeight: 50,
-        lineHeight: 3.5,
-        fontSize: '1.2rem',
+    footerLinksContainer: {
+        background: '#780520',
         color: '#a3e9ee',
-        padding: '0 20px',
+        height: 40,
+        width: '100%',
+        fontSize: 14,
     },
     flexRow: {
         display: 'flex',
         flexDirection: 'row',
-        justifyContent: 'space-between',
+        justifyContent: 'space-around',
         alignItems: 'center',
     }
+    };
 
-}
-
-function Footer() {
-    return (
-        <div>
-            <ul>
-                <div style={styles.flexRow}>
-                    <li>My GitHub profile link</li>
-                    <li>My LinkedIn profile link</li>
-                    <li>Another link</li>
-                </div>
-            </ul>
-        </div>
-    );
+    function Footer() {
+        return (
+            <div style={styles.footerLinksContainer}>
+                <ul style={{ listStyleType: 'none' }}>
+                    <div style={styles.flexRow}>
+                        <li>GitHub Profile</li>
+                        <li>LinkedIn</li>
+                        <li>Another link</li>
+                    </div>
+                </ul>
+            </div>
+        );
 }
 
 export default Footer;
