@@ -3,6 +3,8 @@
 
 const styles = {
     footerLinksContainer: {
+        display: 'flex',
+        alignItems: 'center',
         background: '#780520',
         color: '#a3e9ee',
         height: 40,
@@ -20,7 +22,7 @@ const styles = {
     function Footer() {
         return (
             <div style={styles.footerLinksContainer}>
-                <ul style={{ listStyleType: 'none' }}>
+                <ul style={{ listStyleType: 'none', width: '100%' }}>
                     <div style={styles.flexRow}>
                         <li>GitHub Profile</li>
                         <li>LinkedIn</li>

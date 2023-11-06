@@ -2,7 +2,14 @@
 
 const styles = {
     headerContainer: {
-        height: 140,
+        height: 300,
+        backgroundColor: '#B0C4DE',
+        width: '100%',
+        backgroundColor: '#DDE5F0',
+        backgroundImage: 'url(/src/assets/image1.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'top',
+        backgroundRepeat: 'no-repeat',
     },
     flexRow: {
         display: 'flex',
@@ -25,7 +32,7 @@ const styles = {
 function Header() {
     return (
         <div style={{ ...styles.flexRow, ...styles.headerContainer }}>
-            <p style={styles.imagePlaceholder}>image placeholder</p>
+            <img src='/src/assets/myimage.jpg'/>
             <h1 style={styles.portfolioTitle}>Rick's Portfolio</h1>
         </div>
     );

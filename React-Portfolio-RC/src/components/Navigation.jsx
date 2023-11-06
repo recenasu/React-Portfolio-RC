@@ -2,6 +2,8 @@
 
 const styles = {
     navButtonsContainer: {
+        display: 'flex',
+        alignItems: 'center',
         background: '#780520',
         color: '#a3e9ee',
         height: 40,
@@ -12,19 +14,19 @@ const styles = {
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-around',
-        alignItems: 'center',
+        alignItems: 'center'
     },
 };
 
 function Navigation() {
     return (
         <div style={styles.navButtonsContainer}>
-            <ul style={{ listStyleType: 'none' }}>
+            <ul style={{ listStyleType: 'none', width: '100%' }}>
                 <div style={styles.flexRow}>
-                    <li>About Me</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
-                    <li>Resume</li>
+                    <li>ABOUT ME</li>
+                    <li>PORTFOLIO</li>
+                    <li>CONTACT</li>
+                    <li>RESUME</li>
                 </div>
             </ul>
         </div>
