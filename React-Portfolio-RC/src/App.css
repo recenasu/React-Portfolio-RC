@@ -44,3 +44,19 @@
 ul {
   padding: 0;
 }
+
+a.nav_link {
+  transition-property: background-color color;
+  transition-duration: .7s;
+}
+
+a.nav_link:hover {
+  background-color: #F7FAE3;
+  color: blue;
+}
+
+.nav {
+
+  
+  
+}
