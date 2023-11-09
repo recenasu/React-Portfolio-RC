@@ -16,6 +16,7 @@ export default function ResumePage() {
             <h2>Rick's Resume </h2>
             <a href="/src/assets/Rick_test_resume.pdf" download><button>Download pdf</button></a>
             <ul style={styles.justifyText}>
+                <li>Rick knows a little JavaScript, HTML, CSS, Node.js, React.js, Handlebars.js, Express.js, MySQL, and MongoDB</li>
                 <li>This is something Rick did</li>
                 <li>This is something else Rick did</li>
                 <li>And this is another thing Rick did</li>
