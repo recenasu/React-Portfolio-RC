@@ -1,6 +1,6 @@
 // Import required react libraries
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 
 // Import stylesheets
