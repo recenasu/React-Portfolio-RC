@@ -57,6 +57,8 @@ a.nav_link:hover {
 
 .form {
   margin: 20px;
+  width: 40%;
+  
 }
 
 .form input {
@@ -65,3 +67,14 @@ a.nav_link:hover {
   margin-bottom: 5px;
   width: 100%;
 }
+
+img {
+  transition-property: background-color color;
+  transition-duration: .7s;
+}
+
+img:hover {
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 0 5px 2px #F7FAE3;
+  }

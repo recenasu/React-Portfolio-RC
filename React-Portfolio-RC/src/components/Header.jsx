@@ -1,4 +1,5 @@
 // This component is the header of the webpage
+import { Link } from 'react-router-dom';
 
 const styles = {
     headerContainer: {
@@ -32,7 +33,7 @@ const styles = {
 function Header() {
     return (
         <div style={{ ...styles.flexRow, ...styles.headerContainer }}>
-            <img src='/src/assets/myimage.jpg'/>
+            <Link to='contact'><img style={{ borderStyle: 'solid', borderColor: 'black'  }} src='/src/assets/myimage.jpg'/></Link>
             <h1 style={styles.portfolioTitle}>Rick's Portfolio</h1>
         </div>
     );

@@ -24,9 +24,9 @@ const styles = {
             <div style={styles.footerLinksContainer}>
                 <ul style={{ listStyleType: 'none', width: '100%' }}>
                     <div style={styles.flexRow}>
-                        <li>GitHub Profile</li>
-                        <li>LinkedIn</li>
-                        <li>Another link</li>
+                    <a href="https://github.com/recenasu"><li>GitHub Profile</li></a>
+                    <a href="https://www.linkedin.com/in/rick-cooke-56b34b8b"><li>LinkedIn</li></a>
+                    <a href="https://rcameroncooke.com/"><li>rcameroncooke.com</li></a>
                     </div>
                 </ul>
             </div>
