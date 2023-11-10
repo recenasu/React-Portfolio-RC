@@ -1,6 +1,7 @@
 // This component is the header of the webpage
 import { Link } from 'react-router-dom';
 import myImage from '../assets/myimage.jpg';
+import myBackground from '../assets/image1.jpg';
 
 const styles = {
     headerContainer: {
@@ -8,7 +9,7 @@ const styles = {
         backgroundColor: '#B0C4DE',
         width: '100%',
         backgroundColor: '#DDE5F0',
-        backgroundImage: 'url(/src/assets/image1.jpg)',
+        backgroundImage: `url(${myBackground})`,
         backgroundSize: 'cover',
         backgroundPosition: 'top',
         backgroundRepeat: 'no-repeat',
