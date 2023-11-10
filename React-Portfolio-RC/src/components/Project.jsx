@@ -4,7 +4,7 @@ import svgLogoMaker from '../assets/svg-logo-maker.gif';
 import mvcTechBlog from '../assets/mvc-tech-blog.gif';
 import nosqlSocialNet from '../assets/nosql-social-network.gif';
 import employeeTracker from '../assets/employee-tracker.gif';
-import myNextBackground from '../assets/image1.jpg';
+// import myNextBackground from '../assets/image1.jpg';
 import wxDashboard from '../assets/weather-dashboard.gif';
 import codingQuiz from '../assets/coding-quiz.gif';
 
