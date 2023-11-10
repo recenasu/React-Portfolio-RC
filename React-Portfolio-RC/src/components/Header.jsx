@@ -8,7 +8,7 @@ const styles = {
         height: 300,
         width: '100%',
         backgroundColor: '#DDE5F0',
-        backgroundImage: `url(./assets/image1.jpg)`,
+        backgroundImage: `url(./assets/img/image1.jpg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'top',
         backgroundRepeat: 'no-repeat',
