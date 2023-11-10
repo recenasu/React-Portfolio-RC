@@ -6,7 +6,6 @@ import myBackground from '../assets/image1.jpg';
 const styles = {
     headerContainer: {
         height: 300,
-        backgroundColor: '#B0C4DE',
         width: '100%',
         backgroundColor: '#DDE5F0',
         backgroundImage: `url(${myBackground})`,
