@@ -33,7 +33,7 @@ const styles = {
         paddingTop: 20,
         paddingBottom: 20,
         width: '100%',
-        backgroundImage: `url(../assets/image1.jpg)`,
+        backgroundImage: `url(./assets/image1.jpg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'bottom',
         backgroundRepeat: 'no-repeat',
